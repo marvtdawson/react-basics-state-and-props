@@ -5,7 +5,8 @@ const person = (props) => {
   return (
       <div className="Person">
         <p onClick={props.click}>
-            Did I tell you my name is {props.name}, I am a Awesome Software Engineer who has been developing for {props.years} years!
+            Did I mention to you that my name is {props.name},
+            I'm a awesome Software Engineer who has been developing for {props.years} years!
         </p>
           <p>
               {props.children}
