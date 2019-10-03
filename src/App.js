@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import Person from './Person/Person';
+import { BrowserRouter } from 'react-router-dom';
 
 class App extends Component {
 
@@ -51,7 +52,8 @@ class App extends Component {
             borderRadius: '7px',
             cursor: 'pointer'
         };
-        return (           
+        return (
+            <BrowserRouter>
             <div className="App">
                 <header className="header">
                     <div className="logo-wrapper">
@@ -116,6 +118,7 @@ class App extends Component {
 
                 </footer>
             </div>
+            </BrowserRouter>
         );
     }
 
