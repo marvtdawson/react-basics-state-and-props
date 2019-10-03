@@ -51,21 +51,44 @@ class App extends Component {
             borderRadius: '7px',
             cursor: 'pointer'
         };
-        return (
+        return (           
             <div className="App">
-                <h1>Hi I'm Marvin Dawson!<br/>
-                    Welcome to my first ReactJS application on my journey to become a ReactJS Jedi Master.</h1>
-                <div>
-                    Let me tell you a little bit about this application.
-                    This application focuses on the core fundamentals of ReactJS 16.8.
-                    <ul>
-                        <li>Class Components - ReactJs 16</li>
-                        <li>Function Components - ReactJs 16.8</li>
-                        <li>Props</li>
-                        <li>State</li>
-                    </ul>
-                </div>
-                <div>
+                <header className="header">
+                    <div className="logo-wrapper">
+                        <div className="logo-wrapper__img">
+                            <img src="./assets/img/site/" alt=""/>
+                        </div>
+                    </div>
+                    <nav className="nav-wrapper">
+                        <ul>
+                            <li>HOME</li> |
+                            <li>BLOG</li> |
+                            <li>CONTACT</li>
+                        </ul>
+                    </nav>
+                </header>
+                <section>
+                    Jumbotron Image goes here!!
+                </section>
+                <section>
+                    <h1>Hi I'm Marvin Dawson!<br/>
+                        Welcome to my first ReactJS application on my journey to become a ReactJS Jedi Master.
+                    </h1>
+                </section>
+                <section>
+                    <div>
+                        Let me tell you a little bit about this application.
+                        This application focuses on the core fundamentals of ReactJS 16.8.
+                        <ul>
+                            <li>Class Components - ReactJs 16</li>
+                            <li>Function Components - ReactJs 16.8</li>
+                            <li>Props</li>
+                            <li>State</li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <div>
                     <button
                         style={style}
                         onClick={this.togglePersonHandler}>
@@ -88,6 +111,10 @@ class App extends Component {
                             : null
                     }
                 </div>
+                </section>
+                <footer className="footer">
+
+                </footer>
             </div>
         );
     }
