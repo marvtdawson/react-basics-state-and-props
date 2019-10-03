@@ -1,7 +1,11 @@
 import React, {Component} from 'react';
-import './App.scss';
-import Person from './Person/Person';
 import { BrowserRouter } from 'react-router-dom';
+import './App.scss';
+import Header from './components/Layout/Header/Header';
+import Footer from './components/Layout/Footer/Footer';
+import Person from './components/Person/Person';
+import JumboTron from './components/Layout/JumboTron/JumboTron';
+import CoreElements from "./components/CoreElements/CoreElements";
 
 class App extends Component {
 
@@ -55,44 +59,14 @@ class App extends Component {
         return (
             <BrowserRouter>
             <div className="App">
-                <header className="header">
-                    <div className="header__logo-wrapper">
-                        <div className="header__logo-wrapper__img">
-                            <img src="./assets/img/site/" alt=""/>
-                        </div>
-                    </div>
-                    <nav className="header__nav-wrapper">
-                        <ul>
-                            <li>HOME</li> |
-                            <li>BLOG</li> |
-                            <li>CONTACT</li>
-                        </ul>
-                    </nav>
-                </header>
-                <section>
-                    Jumbotron Image goes here!!
-                </section>
+                <Header />
+                <JumboTron />
                 <section>
                     <h1>Hi I'm Marvin Dawson!<br/>
                         Welcome to my first ReactJS application on my journey to become a ReactJS Jedi Master.
                     </h1>
                 </section>
-                <section>
-                    <div>
-                        Let me tell you a little bit about this application.
-                        This application focuses on the core fundamentals of ReactJS 16.8.
-                        <ul>
-                            <li>Class Components - ReactJs 16</li>
-                            <li>Function Components - ReactJs 16.8</li>
-                            <li>Props</li>
-                            <li>State</li>
-                            <li>React Hooks</li>
-                            <li>Routing</li>
-                            <li>Navigation and Linking</li>
-                            <li>CSS Styling</li>
-                        </ul>
-                    </div>
-                </section>
+                <CoreElements />
                 <section>
                     <div>
                     <button
@@ -118,9 +92,7 @@ class App extends Component {
                     }
                 </div>
                 </section>
-                <footer className="footer">
-
-                </footer>
+                <Footer />
             </div>
             </BrowserRouter>
         );

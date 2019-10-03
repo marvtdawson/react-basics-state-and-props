@@ -1,5 +1,5 @@
 import React from 'react';
-import './Person.css';
+import './Person.scss';
 
 const person = (props) => {
   return (
@@ -15,6 +15,4 @@ const person = (props) => {
       </div>
   )
 };
-
 export default person;
-
