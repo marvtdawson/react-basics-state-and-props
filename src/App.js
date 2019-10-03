@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
+import './App.scss';
 import Person from './Person/Person';
 import { BrowserRouter } from 'react-router-dom';
 
@@ -56,12 +56,12 @@ class App extends Component {
             <BrowserRouter>
             <div className="App">
                 <header className="header">
-                    <div className="logo-wrapper">
-                        <div className="logo-wrapper__img">
+                    <div className="header__logo-wrapper">
+                        <div className="header__logo-wrapper__img">
                             <img src="./assets/img/site/" alt=""/>
                         </div>
                     </div>
-                    <nav className="nav-wrapper">
+                    <nav className="header__nav-wrapper">
                         <ul>
                             <li>HOME</li> |
                             <li>BLOG</li> |
@@ -86,6 +86,10 @@ class App extends Component {
                             <li>Function Components - ReactJs 16.8</li>
                             <li>Props</li>
                             <li>State</li>
+                            <li>React Hooks</li>
+                            <li>Routing</li>
+                            <li>Navigation and Linking</li>
+                            <li>CSS Styling</li>
                         </ul>
                     </div>
                 </section>
