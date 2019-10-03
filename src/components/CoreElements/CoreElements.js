@@ -11,7 +11,7 @@ const coreElements = () => {
                     <li>Function Components - ReactJs 16.8</li>
                     <li>Props</li>
                     <li>State</li>
-                    <li>Hooks</li>
+                    <li>Hooks - ReactJs 16.8</li>
                     <li>Routing</li>
                     <li>Navigation</li>
                     <li>Linking</li>

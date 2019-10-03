@@ -6,7 +6,7 @@ const header = () => {
         <header className="header">
             <div className="header__logo-wrapper">
                 <div className="header__logo-wrapper__img">
-                    <img src="./assets/img/site/" alt=""/>
+                    <img src="../../../assets/selfPortrait/marvin_2019_140_x_140.png" alt=""/>
                 </div>
             </div>
             <nav className="header__nav-wrapper">
