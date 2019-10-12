@@ -4,7 +4,7 @@ import './JumboTron.scss';
 const jumboTron = () => {
     return (
         <section className="jumbotron-wrapper">
-            Jumbotron Image goes here!!
+            <img src="../../../assets/img/site/2000px-React-icon.svg.png" alt="React logo"/>
         </section>
     )
 };
