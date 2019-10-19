@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
 import './Header.scss';
+// import About from '../../../containers/CorePages/About/About';
 
 import marvinPortrait from '../../../assets/img/selfPortrait/marvin_2019_140_x_140.png';
 
@@ -16,12 +17,15 @@ class Header extends Component {
                     <ul>
                         <li><Link to="/">HOME</Link></li>
                         |
+                        <li><a href="/about">ABOUT</a></li>
+                        |
                         <li>
                             <Link to={{
-                                pathname: '/person'
-                            }}>PERSON
+                                    pathname: '/person'
+                                }}>PERSON
                             </Link>
-                        </li> |
+                        </li>
+                        |
                         <li><Link to={{
                             pathname: '/blog'
                         }}>BLOG</Link></li> |
