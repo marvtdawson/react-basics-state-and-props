@@ -6,10 +6,10 @@ const footer = () => {
         <footer className="footer">
             <div className="footer__container-wrapper">
                 <div className="footer__container-wrapper__container">
-                    <h4>My Works!</h4>
+                    <h4>Latest Blog</h4>
                 </div>
                 <div className="footer__container-wrapper__container">
-                    <h4>My Skills</h4>
+                    <h4>Archive Blog</h4>
                 </div>
                 <div className="footer__container-wrapper__container">
                     <h3>Contact Me</h3>

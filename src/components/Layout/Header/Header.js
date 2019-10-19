@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
 import './Header.scss';
 
+import marvinPortrait from '../../../assets/img/selfPortrait/marvin_2019_140_x_140.png';
+
 class Header extends Component {
     render() {
         return (
             <header className="header">
                 <div className="header__logo-wrapper">
                     <img className="header__logo-wrapper__img"
-                         src="../../../assets/img/selfPortrait/marvin_2019_140_x_140.png" alt="Marvin's Portrait"/>
+                         src={ marvinPortrait } alt="Marvin's Portrait"/>
                 </div>
                 <nav className="header__nav-wrapper">
                     <ul>

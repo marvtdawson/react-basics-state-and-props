@@ -1,4 +1,12 @@
-.jumbotron-wrapper {
+.jumbotron{
   width: 100%;
-  height: 25rem;
+  &__image-wrapper {
+    width: 70%;
+    margin: 0 auto;
+
+    &__image {
+      width: 100%;
+      height: 30rem;
+    }
+  }
 }
