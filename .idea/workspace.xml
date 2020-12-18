@@ -24,12 +24,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd13a4cf-49e7-4350-b30d-cc4732c7a013" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/CorePages/About/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/JumboTron/JumboTron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/JumboTron/JumboTron.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/CorePages/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CorePages/Home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/CorePages/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CorePages/Home/Home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/CorePages/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CorePages/Person/Person.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +137,7 @@
       <workItem from="1571124698857" duration="775000" />
       <workItem from="1571205417516" duration="1022000" />
       <workItem from="1571323740643" duration="171000" />
-      <workItem from="1571513795014" duration="3873000" />
+      <workItem from="1571513795014" duration="6081000" />
     </task>
     <servers />
   </component>

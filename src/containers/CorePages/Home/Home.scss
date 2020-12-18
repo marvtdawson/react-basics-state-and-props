@@ -1,3 +1,10 @@
 .yodaWrapper {
   height: 5rem;
+  top: 1rem;
+  z-index: 10;
+  position: relative;
+}
+
+ul {
+  list-style: none;
 }
