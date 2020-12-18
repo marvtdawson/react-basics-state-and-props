@@ -10,8 +10,9 @@ class Header extends Component {
         return (
             <header className="header">
                 <div className="header__logo-wrapper">
-                    <img className="header__logo-wrapper__img"
-                         src={ marvinPortrait } alt="Marvin's Portrait"/>
+                    Marvin T. Dawson
+                    {/*<img className="header__logo-wrapper__img"
+                         src={ marvinPortrait } alt="Marvin's Portrait"/>*/}
                 </div>
                 <nav className="header__nav-wrapper">
                     <ul>

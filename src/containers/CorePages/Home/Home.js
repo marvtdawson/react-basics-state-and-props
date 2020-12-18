@@ -12,7 +12,7 @@ class Home extends Component {
                 <JumboTron />
                 <div>
                     <h3>
-                        Hi my name is Marvin Dawson join me on my journey to becoming a ReactJs Jedi Master
+                        Hi I'm Marvin, join me on my journey to becoming a React Jedi maSter
                         <img className="yodaWrapper" src={yodaImage} alt="Star Wars Jedi Master Yoda"/>
                     </h3>
                     <p>This is my Blog application!</p>
