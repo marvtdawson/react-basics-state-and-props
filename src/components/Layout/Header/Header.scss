@@ -10,12 +10,12 @@
     &__img {
 
     }
-
   }
 
   &__nav-wrapper {
     width: 35%;
-    margin-right: 2rem;
+    justify-content: right;
+    right: 0.5rem;
     display: inline;
     ul {
       margin: 0;
@@ -23,7 +23,7 @@
       li {
         list-style-type: none;
         display: inline;
-        margin: 2rem;
+        margin: 1rem;
       }
       a {
         text-decoration: none;
